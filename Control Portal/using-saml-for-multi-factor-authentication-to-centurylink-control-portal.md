@@ -24,9 +24,8 @@ Though we are using OneLogin in our example here, of course the principles will 
 
 ### Configure IdP for SAML
 
-1. In the CenturyLink Cloud Control Portal, from the Account Settings page, navigate to the "Users" tab and the "Authentication" sub-menu.
+1. In the CenturyLink Cloud Control Portal, navigate to Settings &gt; Authentication in the main navigation menu on the left.
 2. Click the "SAML 2.0 Authentication" checkbox to show all the available settings. For now, just take note of the "Relying Party Assertion Consumer Service URL" listed there. It should be in the format of <code>https://{account-alias}.cloudportal.io/SAMLAuth/Post</code>. (Highlighted in the screenshot below.)
-![SAML Settings Blank](../images/saml-settings-blank.png)
 3. Now login to the OneLogin end-user dashboard.
 4. From the "Apps" menu, select "Add Apps".
 ![OneLogin Add App](../images/onelogin-add-app.png)
@@ -65,7 +64,6 @@ There are a few different options for provisioning users to CenturyLink Cloud an
 You may have the opposite situation where you need to create users in Control that already exist in your IdP. Or you may not have users in either location. No matter how you choose to provision users, as you will see, the important thing is that the SAML username in Control matches the SAML username in the IdP.
 
 1. In the Control Portal, from the "Users" page in Account Settings, click the user you will be provisioning to OneLogin. (If you need to create a new user in Control, you can follow the instructions in [Creating Users](../Accounts & Users/creating-users.md)
-![Users Page](../images/users-page.png)
 2. On the User Profile page, take note of the e-mail address, first and last name. Most importantly, click on the "saml username (single sign on)" field and enter the *e-mail address* for this user. The OneLogin SAML configuration uses e-mail as the default username. To keep this example simple, we will stick with this rather than set it to a custom value. Here, it is also the same as the user name, which is a good practice for uniqueness.
 ![User Info Page](../images/user-info-page.png)
 3. Back in the OneLogin configuration, navigate to "Users -> All Users" from the menu and click the "New User" button to create a new user. Enter the first name, last name, and e-mail address you took note of in Step 3. All of these fields are required and as noted above, the e-mail address must match the value entered into the SAML username field in Control. You may also fill in other fields as desired. Click "Save User".

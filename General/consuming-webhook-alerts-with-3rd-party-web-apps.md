@@ -38,9 +38,7 @@ This sample use case will not detail the process to setup a #slack domain and as
 
   ![](../images/consuming-webhooks-02.png)
 
-4. Open the CenturyLink Cloud Control Portal, navigate to API, Webhooks. Input the Zapier URL provided previously into the Alert Notifications field. Optionally, cloud administrators can choose to include any sub accounts in this webhook configuration.
-
-  ![](../images/consuming-webhooks-webhook.png)
+4. Open the CenturyLink Cloud Control Portal, navigate to Settings &gt; Webhooks in the main navigation menu on the left. Input the Zapier URL provided previously into the Alert Notifications field. Optionally, cloud administrators can choose to include any sub accounts in this webhook configuration.
 
 5. Select a slack account for the webhook event to be sent to. If you are setting up your first Zap to Slack you will need to connect and authorize Zapier to connect to your slack account. These steps are not shown.
 

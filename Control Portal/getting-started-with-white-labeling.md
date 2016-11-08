@@ -20,8 +20,7 @@ CenturyLink Cloud includes several features that allow organizations to replace 
 
 2. Make sure the **Settings** tab is active.
 
-3. Click **Branding**.
-   ![Settings Page](../images/account-settings-site-branding.png)
+3. Select **Branding**.
 
 ### Customizing the Site Name
 1. In the Site section, click the site name and replace it. Typically, this is the name of your company or division.
@@ -64,20 +63,6 @@ Changes made to logos may take up to 30 minutes to propagate across the site. No
 3. Navigate to the file on your computer and click **Open**.
 
 4. Click **save**.
-
-### Customizing the Site Footer
-You can customize the Control Portal to use your company's information.
-
-1. From the Navigation Menu, click **Settings > Account Settings**.
-
-2. Make sure the **Settings** tab is active.
-
-3. Click **Settings**.
-   ![Settings Page](../images/account-settings-site-settings.png)
-
-4. Click **site footer**.
-
-5. Click **enable** and click **save**.
 
 ### Using Custom Domains
 A custom subdomain is automatically available for each account alias, in the format of `https://alias.cloudportal.io`. A customized 'Sign In Page' logo, if specified, appears on this URL. Nothing is required for the custom domain to be available. It should just be promoted as the flagship login page where appropriate.

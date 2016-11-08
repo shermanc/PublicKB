@@ -12,11 +12,11 @@ The permissions settings page includes a list of roles and their respective desc
 
 ### Steps
 
-To view or edit permissions go to Control Portal &gt; Settings &gt; Permissions.
+To view or edit an individual user's permissions, go open the Settings menu in the left navigation menu, and select &gt; Permissions.
 
 1. Select the user for whom you would like to view or edit permissions
-2. If you want to make a change, set roles
+2. Check or uncheck the appropriate roles for the user.
 
   ![User Permissions](../images/user-permissions.png)
 
-3. Click the save button
+3. Select the save button to apply the permissions
